@@ -1,0 +1,26 @@
+{
+  "name": "landing-page-with-tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeasir99/landing-page-with-tailwind.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yeasir99/landing-page-with-tailwind/issues"
+  },
+  "homepage": "https://github.com/yeasir99/landing-page-with-tailwind#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.9",
+    "tailwindcss": "^2.1.1",
+    "vite": "^2.1.5"
+  }
+}
