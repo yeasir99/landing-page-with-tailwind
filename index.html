@@ -11,7 +11,7 @@
     />
     <link href="/css/styles.css" rel="stylesheet" />
   </head>
-  <body class="box-borde overflow-hidden">
+  <body class="box-border overflow-x-hidden">
     <header class="mainHeader">
       <div class="appContainer logoContainer">
         <div>
@@ -56,9 +56,9 @@
         </nav>
       </div>
     </header>
-    <div class="banner">
+    <div class="banner relative">
       <div class="appContainer flex justify-between items-center h-full">
-        <div class="container-sm mx-auto px-2 sm:px-0 text-center">
+        <div class="container-sm mx-auto px-2 sm:px-0 text-center z-10">
           <h1
             class="text-3xl md:text-4xl lg:text-5xl max-w-lg lg:max-w-2xl mb-8 md:mb-10 lg:mb-12 leading-tight lg:leading-snug capitalize"
           >
@@ -69,21 +69,32 @@
             <strong class="text-yellow-300">business</strong>
           </h1>
           <p
-            class="max-w-lg text-lg font-semibold mb-8 md:mb-10 lg:mb-12 leading-tight lg:leading-relaxed lg:tracking-wide text-gray-900"
+            class="max-w-lg mx-auto text-lg font-semibold mb-8 md:mb-10 lg:mb-12 leading-tight lg:leading-relaxed lg:tracking-wide text-gray-900"
           >
-            Softy Pinko is a professional Bootstrap 4.0 theme designed by
-            Template Mo for your company at absolutely free of charge
+            Soft Ca is a professional Tailwind 2.1.1 theme designed by Yeasir
+            Ahamed for your company at absolutely free of charge
           </p>
           <a
-            class="bg-yellow-400 px-4 py-3 inline-block rounded hover:bg-yellow-500 hover:text-white text-lg font-semibold capitalize transition duration-300 ease-out"
+            class="bg-yellow-400 px-4 py-3 mb-8 inline-block rounded shadow-lg hover:bg-yellow-500 hover:text-white text-lg font-semibold capitalize transition duration-300 ease-out"
             href="#"
             >discover more</a
           >
         </div>
       </div>
+      <svg
+        class="absolute bottom-0 left-0 w-full"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+      >
+        <path
+          fill="#3B82F6"
+          fill-opacity="1"
+          d="M0,192L80,197.3C160,203,320,213,480,229.3C640,245,800,267,960,250.7C1120,235,1280,181,1360,154.7L1440,128L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+        ></path>
+      </svg>
     </div>
-    <main>main area</main>
-    <footer>footer</footer>
+    <main></main>
+    <footer></footer>
     <script src="/app.js"></script>
   </body>
 </html>

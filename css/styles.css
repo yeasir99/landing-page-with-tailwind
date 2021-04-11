@@ -1,3 +1,6 @@
+:root {
+  --custom-height: calc(100vh - 4rem);
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,10 +10,10 @@
     @apply max-w-6xl mx-auto px-2;
   }
   .mainHeader {
-    @apply bg-blue-400 h-16 relative;
+    @apply bg-blue-500 h-16 relative;
   }
   .mainNav {
-    @apply absolute top-0 -right-full h-screen w-4/6 bg-indigo-400 z-50 opacity-100 md:static md:h-full md:w-auto md:bg-blue-400;
+    @apply absolute top-0 -right-full h-screen w-4/6 bg-indigo-400 z-50 opacity-100 md:static md:h-full md:w-auto md:bg-blue-500;
   }
   .navLink {
     @apply capitalize text-gray-800 text-lg font-semibold hover:text-yellow-400 transition duration-300 ease-in-out;
@@ -34,7 +37,6 @@
       ),
       linear-gradient(135deg, rgba(65, 166, 189, 1), rgba(84, 4, 168, 0.8)),
       url("/images/banner.jpg");
-    height: calc(100vh - 4rem);
-    @apply bg-no-repeat bg-center bg-cover z-30;
+    @apply bg-no-repeat bg-center bg-cover z-30 h-custom;
   }
 }
