@@ -22,5 +22,8 @@
     "postcss": "^8.2.9",
     "tailwindcss": "^2.1.1",
     "vite": "^2.1.5"
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.3.2"
   }
 }

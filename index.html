@@ -22,7 +22,7 @@
             >
           </a>
         </div>
-        <div class="md:hidden" id="burger">
+        <div class="md:hidden cursor-pointer" id="burger">
           <i class="bx bx-menu text-4xl"></i>
         </div>
         <nav class="mainNav" id="nav">
@@ -75,7 +75,7 @@
             Ahamed for your company at absolutely free of charge
           </p>
           <a
-            class="bg-yellow-400 px-4 py-3 mb-8 inline-block rounded shadow-lg hover:bg-yellow-500 hover:text-white text-lg font-semibold capitalize transition duration-300 ease-out"
+            class="bg-yellow-400 px-5 py-2 mb-8 inline-block rounded shadow-lg hover:bg-yellow-500 hover:text-white text-lg font-semibold capitalize transition duration-300 ease-out"
             href="#"
             >discover more</a
           >
@@ -93,7 +93,94 @@
         ></path>
       </svg>
     </div>
-    <main></main>
+    <main>
+      <!-- Contact Section -->
+      <section class="bg-gray-100">
+        <div class="appContainer py-8">
+          <div class="text-center">
+            <h2 class="text-gray-800 text-2xl mb-3 font-bold">
+              We’d love to hear from you
+            </h2>
+            <p class="text-gray-700 text-lg mb-5">
+              Whether you have a question about features, trials, pricing, need
+              a demo, or anything else, our team is ready to answer all your
+              questions
+            </p>
+          </div>
+          <div>
+            <div class="mb-4 px-2">
+              <h3 class="text-gray-900 text-2xl font-semibold mb-2">
+                Headquarters
+              </h3>
+              <div>
+                <p class="text-xl">
+                  <i class="bx bxs-been-here px-2 text-indigo-500"></i> 360
+                  Kingsland Ave, Brooklyn, NY 11222
+                </p>
+                <p class="text-xl">
+                  <i class="bx bx-phone px-2 text-indigo-500"></i>
+                  +1-999-999-9999
+                </p>
+                <p class="text-xl">
+                  <i class="bx bx-mail-send px-2 text-indigo-500"></i>
+                  company@domain.com
+                </p>
+              </div>
+            </div>
+            <form class="px-2">
+              <h3 class="text-gray-900 text-2xl font-semibold mb-2">
+                Get in touch with us
+              </h3>
+              <div>
+                <div>
+                  <label for="Name" class="block text-xl my-2 font-semibold"
+                    >Name</label
+                  >
+                  <input
+                    name="name"
+                    type="text"
+                    id="Name"
+                    placeholder="John Doe"
+                    class="w-full rounded-lg text-xl border-gray-300 shadow-sm"
+                  />
+                </div>
+                <div>
+                  <label for="Email" class="block text-xl my-2 font-semibold"
+                    >Email Address</label
+                  >
+                  <input
+                    name="email"
+                    type="email"
+                    id="Email"
+                    placeholder="your@mail.com"
+                    class="w-full rounded-lg text-xl border-gray-300 shadow-sm"
+                  />
+                </div>
+              </div>
+              <label for="Message" class="block text-xl my-2 font-semibold"
+                >Message</label
+              >
+              <textarea
+                name="message"
+                type="text"
+                id="Message"
+                cols="30"
+                rows="10"
+                placeholder="Your Message"
+                class="w-full mb-2 rounded-lg text-xl border-gray-300 shadow-sm"
+              ></textarea>
+              <!-- button type is currently "button" need to change type "submit" when submit form data -->
+              <button
+                type="button"
+                class="bg-indigo-500 hover:bg-indigo-400 text-gray-200 hover:text-white rounded text-xl uppercase py-3 px-5 focus:outline-none"
+              >
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer></footer>
     <script src="/app.js"></script>
   </body>
