@@ -39,4 +39,14 @@
       url("/images/banner.jpg");
     @apply bg-no-repeat bg-center bg-cover z-30 h-custom;
   }
+  footer {
+    background-image: repeating-linear-gradient(
+        135deg,
+        rgba(0, 0, 0, 0.04) 0px,
+        rgba(0, 0, 0, 0.04) 2px,
+        transparent 2px,
+        transparent 4px
+      ),
+      linear-gradient(135deg, rgba(65, 166, 189, 1), rgba(84, 4, 168, 0.8));
+  }
 }
